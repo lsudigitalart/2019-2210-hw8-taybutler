@@ -9,7 +9,6 @@ var body;
 var tail;
 
 var song;
-var loadTime;
 
 function preload() {
     bchead = loadImage('bchead.png');
@@ -49,12 +48,7 @@ function draw() {
 
 function mouseReleased() {
     creature();
-    
-    if (song.isLoaded()) {
-      loadTime = millis();
-      print(loadTime);
-      song.play();
-    }
+    song.play();
   }
 
 function creature() {
