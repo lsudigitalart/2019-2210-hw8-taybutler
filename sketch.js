@@ -10,25 +10,25 @@ var tail;
 
 
 function preload() {
-    bchead = loadImage('images/bchead.png');
-    bcbody = loadImage('images/bcbody.png');
-    bctail = loadImage('images/bctail.png');
+    bchead = loadImage('bchead.png');
+    bcbody = loadImage('bcbody.png');
+    bctail = loadImage('bctail.png');
 
-    bullhead = loadImage('images/bullhead.png');
-    bullbody = loadImage('images/bullbody.png');
-    bulltail = loadImage('images/bulltail.png');
+    bullhead = loadImage('bullhead.png');
+    bullbody = loadImage('bullbody.png');
+    bulltail = loadImage('bulltail.png');
 
-    germanhead = loadImage('images/germanhead.png');
-    germanbody = loadImage('images/germanbody.png');
-    germantail = loadImage('images/germantail.png');
+    germanhead = loadImage('germanhead.png');
+    germanbody = loadImage('germanbody.png');
+    germantail = loadImage('germantail.png');
 
-    goldenhead = loadImage('images/goldenhead.png');
-    goldenbody = loadImage('images/goldenbody.png');
-    goldentail = loadImage('images/goldentail.png');
+    goldenhead = loadImage('goldenhead.png');
+    goldenbody = loadImage('goldenbody.png');
+    goldentail = loadImage('goldentail.png');
 
-    pughead = loadImage('images/pughead.png');
-    pugbody = loadImage('images/pugbody.png');
-    pugtail = loadImage('images/pugtail.png');
+    pughead = loadImage('pughead.png');
+    pugbody = loadImage('pugbody.png');
+    pugtail = loadImage('pugtail.png');
 }
 
 function setup() {
