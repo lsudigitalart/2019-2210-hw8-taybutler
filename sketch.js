@@ -35,7 +35,12 @@ function setup() {
     createCanvas(1200,800);
     background(255);
     imageMode(CENTER);
+}
 
+function draw() {
+  fill(0);
+  textSize(15);
+  text("Click to mix dogs!", (width / 2), 100);
 }
 
 function mouseReleased() {
