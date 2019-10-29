@@ -8,6 +8,8 @@ var head;
 var body;
 var tail;
 
+var song;
+var loadTime;
 
 function preload() {
     bchead = loadImage('bchead.png');
@@ -29,6 +31,8 @@ function preload() {
     pughead = loadImage('pughead.png');
     pugbody = loadImage('pugbody.png');
     pugtail = loadImage('pugtail.png');
+    
+    song = loadSound("woof.mp3");
 }
 
 function setup() {
@@ -45,6 +49,12 @@ function draw() {
 
 function mouseReleased() {
     creature();
+    
+    if (song.isLoaded()) {
+      loadTime = millis();
+      print(loadTime);
+      song.play();
+    }
   }
 
 function creature() {
